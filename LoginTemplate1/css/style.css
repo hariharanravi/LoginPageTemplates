@@ -6,7 +6,7 @@ body{
 }
 .container{
   background-color: #fff9f9;
-  width: 300px;
+  width: 400px;
   position: absolute;
   padding: 40px;
   top: 50%;
@@ -21,22 +21,22 @@ body{
   text-align: left;
   border: 2px solid;
   padding: 14px 10px;
-  width: 280px;
+  width: 350px;
   border: none;
   outline: none;
   color: black;
 }
 .button-box{
-  background-color:#73C259;
+  background-color:#00b242;
   display: block;
   margin: 20px auto;
   text-align: center;
   border: 2px solid;
   padding: 12px 10px;
-  width: 300px;
+  width: 375px;
   outline: none;
   color: white;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 16px;
   cursor: pointer;
   text-transform: uppercase;
@@ -45,14 +45,14 @@ body{
   background-color: #FFF;
   color:#73C259;
 }
-
+.container input::placeholder{
+  color: #b3b3b3;
+  font-size: 16px;
+}
 .text-green{
   color: #73C259;
   cursor: pointer;
 }
 .container p{
-  color: #5F5F5F;
-}
-.container h1{
-  text-transform: uppercase;
+  color: #b3b3b3;
 }
